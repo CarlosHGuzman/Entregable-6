@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700&display=swap');
+
+:root {
+  --primary: #f85555;
+  --light-gray: #dcd9d9;
+  --gray: #c7c7c7;
+  --dark-gray: #4f4f4f;
+  --text-gray: #ababab;
+  --ultra-light-gray: #f6f6f6;
+}
+
+hmtl{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+img{
+  width: 100%;
+  max-width: 250px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  overflow: hidden; 
+  position: relative;
+}

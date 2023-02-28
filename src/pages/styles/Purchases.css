@@ -1,0 +1,42 @@
+.myPurchases {
+    width: 70%;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+}
+
+.myPurchases__navigate {
+    position: relative;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.myPurchases__navigate a{
+    color: #515151; 
+    text-decoration: none;
+}
+
+.myPurchases__navigate p span{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.myPurchases__navigate p .point{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: var(--primary);
+    border-radius: 50%;
+}
+
+.myPurchases h3{
+    color: var(--dark-gray);
+    font-size: 25px;
+}
+
+.productsCard {
+    width: 70%;
+    max-width: 1000px;
+}
