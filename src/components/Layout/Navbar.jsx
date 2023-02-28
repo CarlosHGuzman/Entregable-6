@@ -5,6 +5,7 @@ import "./styles/Navbar.css"
 const Navbar = () => {
     const { products } = useSelector(store => store.cart)
     const { token } = useSelector(store => store.userInfo)
+    console.log(token)
 
     return (
         <nav className="navbar">
